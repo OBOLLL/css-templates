@@ -1,0 +1,163 @@
+/*base*/
+body {
+  background: #efefef;
+}
+
+input,
+textarea,
+body {
+  color: #333333;
+  font-size: 12px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+a {
+  color: #3744a1;
+}
+
+a:hover {
+  color: #3744a1;
+}
+
+::selection {
+  background: #0784ad; 
+  color: #fff; 
+}
+
+::-moz-selection {
+  background: #0784ad; 
+  color: #fff; 
+}
+
+
+/*-popup-*/
+.b-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #000;
+  padding: 16px 28px;
+  background: #ffffff;
+  border-radius: 6px;
+  color: #010101;
+  z-index: 10;
+}
+
+.b-popup_feedback {
+  width: 262px;
+}
+
+.b-popup .close {
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  display: block;
+  width: 13px;
+  height: 13px;
+  background: url('media/sprite.png') no-repeat -34px -120px;
+}
+
+.b-popup .b-title-main {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #252982;
+}
+
+.b-popup .b-note {
+  margin-bottom: 12px;
+}
+
+.b-popup .item {
+  margin-bottom: 15px;
+}
+
+.b-popup label {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.b-popup .b-input {
+  padding: 0 4px;
+  border-radius: 4px;
+  width: 254px;
+  height: 28px;
+  line-height: 28px;
+  background: #eceff6;
+  -moz-box-shadow: 0 -1px 1px #b4b7c4; /* Для Firefox */
+  -webkit-box-shadow: 0 -1px 1px #b4b7c4; /* Для Safari и Chrome */
+  box-shadow: 0 -1px 1px #b4b7c4; /* Параметры тени */
+}
+
+.b-popup .errorlist {
+  display: none;
+  margin: 8px 4px 0 4px;
+  color: #ff4a50;
+}
+
+.b-popup .error .b-input {
+  background: #fecbcb;
+  -moz-box-shadow: 0 -1px 1px #c19ca3; /* Для Firefox */
+  -webkit-box-shadow: 0 -1px 1px #c19ca3; /* Для Safari и Chrome */
+  box-shadow: 0 -1px 1px #c19ca3; /* Параметры тени */
+}
+
+.b-popup .error .errorlist {
+  display: block;
+}
+
+.b-popup .b-input_area {
+  padding: 4px;
+  height: 76px;
+}
+
+.b-popup .b-input_capcha {
+  float: left;
+  margin-right: 13px;
+  width: 58px;
+}
+
+.b-popup .item_capcha img {
+  display: block;
+  float: left;
+  margin-right: 13px;
+}
+
+.b-popup .item_capcha a {
+  display: block;
+  float: left;
+  margin-top: 3px;
+  width: 24px;
+  height: 20px;
+  background: url('media/sprite.png') no-repeat 0 -118px;
+}
+
+.b-popup input[type="text"] {
+  border: none;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background: transparent;
+}
+
+.b-popup input[type="submit"] {
+  display: block;
+  margin: 18px auto 0;
+  border: none;
+  width: 101px;
+  height: 41px;
+  background: url('media/btn-order.png') no-repeat 0 -93px;
+}
+
+.b-popup textarea {
+  border: none;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  background: transparent;
+}
+
+.b-popup_feedback textarea {
+  height: 76px;
+}
+/*-/popup-*/

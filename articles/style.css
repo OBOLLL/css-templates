@@ -1,0 +1,148 @@
+/*base*/
+body {
+  background: #efefef;
+}
+
+input,
+textarea,
+body {
+  color: #333333;
+  font-size: 12px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+a {
+  color: #3744a1;
+}
+
+a:hover {
+  color: #3744a1;
+}
+
+::selection {
+  background: #0784ad; 
+  color: #fff; 
+}
+
+::-moz-selection {
+  background: #0784ad; 
+  color: #fff; 
+}
+
+/*layout*/
+
+.l-page { 
+  overflow: hidden;
+  margin: 0 auto;
+  min-height: 100%;
+  background: url('../images/bg-footer.png') no-repeat 0 0;
+  background-position: center bottom;
+}
+
+.l-page-bg {
+  overflow: hidden;
+  margin: 0 auto;
+  min-height: 100%;
+  background: url('../images/bg-page.png') no-repeat 0 0;
+  background-position: center top;
+}
+
+.l-wrapper {
+  margin: 0 auto 100px;
+  padding: 20px 16px 0;
+  min-width: 968px;
+  max-width: 1152px;
+  overflow: hidden;
+}
+
+.l-middle {
+  position: relative;
+  margin: 0 auto;
+  height: 1%;
+}
+
+.l-middle:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.l-content {
+  margin-top: 8px;
+  padding: 22px 26px;
+  border-radius: 5px;
+  min-height: 325px;
+  background: #fff;
+}
+
+/*blocks*/
+
+/*-content-*/
+.b-title-main {
+  font-size: 23px;
+  color: #242981;
+}
+
+.b-breadcrumbs {
+  margin-bottom: 10px;
+  font-size: 11px;
+  color: #88888d;
+}
+
+.b-breadcrumbs .link {
+  color: #88888d;  
+}
+
+.b-pages {
+  font-size: 18px;
+}
+
+.b-pages .item {
+  margin-right: 10px;
+  float: left;
+}
+
+.b-pages .active {
+  text-decoration: none;
+  color: #585858;
+}
+
+.l-content-articles .b-title-main {
+  margin-bottom: 10px;
+}
+
+
+/*-article-list-*/
+.b-list_articles {
+  width: 48%;
+  font-size: 13px;
+}
+
+.item_article {
+  margin-bottom: 23px;
+}
+
+.item_article .link {
+  font-weight: bold;
+}
+/*-/article-list-*/
+
+
+/*-texts-*/
+.b-text_articles {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.b-text_articles img {
+  margin: 0 10px 1px 0;
+  float: left;
+}
+
+.b-text_articles .link {
+  display: block;
+  margin-top: 10px;
+}
+/*-/texts-*/
