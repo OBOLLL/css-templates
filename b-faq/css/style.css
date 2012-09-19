@@ -1,0 +1,80 @@
+/*base*/
+@font-face {
+  font-family: Calibri;
+}
+
+body {
+  background: #fff;
+}
+
+input,
+textarea,
+body {
+  color: #333333;
+  font-size: 12px;
+  font-family: Calibri;
+}
+
+a {
+  color: #2279ca;
+}
+
+a:hover {
+  color: #2279ca;
+}
+
+::selection {
+  background: #0784ad;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #0784ad;
+  color: #fff;
+}
+
+/*-b-faq-*/
+.b-list_faq {
+  margin: 50px auto 0;
+  width: 500px;
+}
+.b-list_faq .b-question {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #000;
+  line-height: 17px;
+}
+.b-list_faq .b-answer {
+  position: relative;
+  margin: 0 0 16px 22px;
+}
+.b-list_faq .answer {
+  display: inline;
+  margin-bottom: 16px;
+  border-bottom: 1px dashed #1f7d94;
+  font-size: 14px;
+  color: #1f7d94;
+  cursor: pointer;
+}
+.b-list_faq .answer:hover,
+.b-list_faq .active .title {
+  border-color: transparent;
+}
+.b-list_faq .bg_answer {
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: -22px;
+  width: 18px;
+  height: 18px;
+  background: url(../images/sprite.png) no-repeat 0 -170px;
+}
+.b-list_faq .hidden {
+  overflow: hidden;
+  height: 0;
+}
+.b-list_faq .b-text {
+  margin-left: 15px;
+  line-height: 16px;
+}
+/*-/b-faq-*/

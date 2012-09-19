@@ -1,0 +1,62 @@
+/*base*/
+body {
+  background: #fff;
+}
+
+input,
+textarea,
+body {
+  color: #333333;
+  font-size: 12px;
+  font-family: Arial, 'Helvetica CY', 'Nimbus Sans L', sans-serif;
+}
+
+a {
+  color: #2279ca;
+}
+
+a:hover {
+  color: #2279ca;
+}
+
+::selection {
+  background: #0784ad;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #0784ad;
+  color: #fff;
+}
+
+/*-b-search-*/
+.b-search {
+  margin: 20px 0 0 20px;
+  border: 1px solid #d2dde0;
+  border-radius: 3px;
+  width: 247px;
+  height: 24px;
+  overflow: hidden;
+  -moz-box-shadow: inset 1px 1px 1px #e5e9eb;
+  -webkit-box-shadow: inset 1px 1px 1px #e5e9eb;
+  box-shadow: inset 1px 1px 1px #e5e9eb;
+}
+.b-search input[type="text"] {
+  display: block;
+  border-color: transparent;
+  border: none;
+  padding: 5px 2px 4px;
+  height: 14px;
+  width: 210px;
+  background: transparent;
+}
+.b-search input[type="submit"] {
+  display: block;
+  border: none;
+  margin: 0 -1px 0 0;
+  padding: 0;
+  width: 29px;
+  height: 25px;
+  background: url(../images/sprite.png) 2px -47px no-repeat;
+}
+/*-/b-search-*/
